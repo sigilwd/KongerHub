@@ -1,14 +1,3 @@
---[[
-
-██╗░░░░░███████╗███████╗  ░█████╗░░██╗░░░░░░░██╗███╗░░██╗░██████╗  ████████╗██╗░░██╗██╗░██████╗
-██║░░░░░██╔════╝██╔════╝  ██╔══██╗░██║░░██╗░░██║████╗░██║██╔════╝  ╚══██╔══╝██║░░██║██║██╔════╝
-██║░░░░░█████╗░░█████╗░░  ██║░░██║░╚██╗████╗██╔╝██╔██╗██║╚█████╗░  ░░░██║░░░███████║██║╚█████╗░
-██║░░░░░██╔══╝░░██╔══╝░░  ██║░░██║░░████╔═████║░██║╚████║░╚═══██╗  ░░░██║░░░██╔══██║██║░╚═══██╗
-███████╗███████╗███████╗  ╚█████╔╝░░╚██╔╝░╚██╔╝░██║░╚███║██████╔╝  ░░░██║░░░██║░░██║██║██████╔╝
-╚══════╝╚══════╝╚══════╝  ░╚════╝░░░░╚═╝░░░╚═╝░░╚═╝░░╚══╝╚═════╝░  ░░░╚═╝░░░╚═╝░░╚═╝╚═╝╚═════╝░
-
---]]
-
 local function callback(Text)
 	if Text == "Kill Plane" then
 		game.Players.LocalPlayer:Kick("Killing Plane Requires Leaving.")
@@ -19,7 +8,7 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 --
 game.StarterGui:SetCore("SendNotification",  {
-	Title = "KONGERHub | Plane Destroyer";
+	Title = "KongerHub | Plane Destroyer";
 	Text = "By clicking Kill Plane a random plane will breakdown.";
 	Icon = "http://www.roblox.com/asset/?id=11948153542";
 	Duration = 100000000000000000000000000;
