@@ -1,5 +1,5 @@
 --[[
-KongerHub currently supports five games.
+KongerHub currently supports four games.
 1. Wings of glory
 2. Aviation Airways
 3. Tower of Hell
