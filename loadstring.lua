@@ -1,7 +1,5 @@
 --[[
-KongerHub currently supports four games.
-1. Wings of glory
-2. Aviation Airways
+KongerHub currently supports two games.
 3. Tower of Hell
 4. Murderer VS Sheriff Duels
 ]]--
