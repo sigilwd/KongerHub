@@ -10,5 +10,5 @@ local gameLinks = {
 if gameLinks[game.PlaceId] ~= nil then
     loadstring(game:HttpGet(gameLinks[game.PlaceId]))()
 else
-    warn("KongerHub isn't supported in this game")
+    game.Players.LocalPlayer:Kick("KongerHub isn't supported in that game.")
 end
