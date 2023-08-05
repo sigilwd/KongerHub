@@ -6,6 +6,7 @@ local gameLinks = {
     [1962086868] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/toh.lua",
     [12355337193] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/mvsd.lua",
     [3214114884] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/flagwars",
+    [6722284015] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/pistol1v1",
 }
 
 if gameLinks[game.PlaceId] ~= nil then
