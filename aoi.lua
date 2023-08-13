@@ -15,5 +15,5 @@ local gameLinks = {
 if gameLinks[game.PlaceId] ~= nil then
     loadstring(game:HttpGet(gameLinks[game.PlaceId]))()
 else
-    game.Players.LocalPlayer:Kick("Not a supported game for KongerHub.")
+    game.Players.LocalPlayer:Kick("Exploiting is a bannable offense. This action log has been submitted to ROBLOX. (This is a Joke)")
 end
