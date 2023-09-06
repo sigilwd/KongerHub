@@ -3,8 +3,6 @@
 ]]
 setfpscap(10000)
 
-loadstring(game:HttpGet("https://pastebin.com/raw/b0w0aAdv"))()
-
 local gameLinks = {
     [1962086868] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/toh.lua",
     [12355337193] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/mvsd.lua",
