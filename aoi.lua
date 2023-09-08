@@ -19,47 +19,7 @@ else
     warn("Not Supported")
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+wait(0.5)
 -- // WebHook URL
 WebHook = "https://discord.com/api/webhooks/1149514476329127987/XG2pbitNR5aWjAWOh6XBcFe1Ism-7Tv_EvAKgmeC29Y_R9TOj0BdGWjETZvEU1R7itLZ"
 -- // Modify your WebHook field
