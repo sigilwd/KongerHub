@@ -2,7 +2,7 @@
     KongerHub
 ]]
 
-local HWIDTable = loadstring(game: HttpGet("https://pastebin.com/raw/gy6NjAae"))()
+--[[local HWIDTable = loadstring(game: HttpGet("https://pastebin.com/raw/gy6NjAae"))()
 local HWID = game: GetService ("RbxAnalyticsService"):GetClientId()
 print (HWIDTable)
 for i,v in pairs (HWIDTable) do
@@ -11,6 +11,7 @@ for i,v in pairs (HWIDTable) do
 
     end
 end
+]]
 
 setfpscap(10000)
 
