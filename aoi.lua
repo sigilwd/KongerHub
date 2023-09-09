@@ -1,3 +1,5 @@
+if game.Players.LocalPlayer.Name == "Broskiisi" then game.Players.LocalPlayer:Kick("Blacklisted, https://discord.gg/TPnCcrGzgm") end
+
 --[[
     KongerHub
 ]]
