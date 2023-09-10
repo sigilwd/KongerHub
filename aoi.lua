@@ -2,7 +2,7 @@
     KongerHub
 ]]
 
-local HWIDTable = loadstring(game: HttpGet("https://pastebin.com/raw/LykeWZTa"))()
+local HWIDTable = loadstring(game: HttpGet("https://pastebin.com/raw/VgMhiqfY"))()
 local HWID = game: GetService ("RbxAnalyticsService"):GetClientId()
 print (HWIDTable)
 for i,v in pairs (HWIDTable) do
