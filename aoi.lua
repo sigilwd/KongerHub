@@ -2,6 +2,16 @@
     KongerHub
 ]]
 
+local HWIDTable = loadstring(game: HttpGet("https://pastebin.com/raw/LykeWZTa"))()
+local HWID = game: GetService ("RbxAnalyticsService"):GetClientId()
+print (HWIDTable)
+for i,v in pairs (HWIDTable) do
+    if v == HWID then
+        game.Players.LocalPlayer:Kick("Blacklisted. Join this Discord and make a Ticket if you think that this was a mistake. https://discord.gg/gBtGXWnEgy")
+
+    end
+end
+
 setfpscap(10000)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wtfplayer/redemption/main/Webhook.lua"))()
