@@ -14,6 +14,7 @@ local gameLinks = {
     [4410049285] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/drivingsimulator.lua",
     [13771457545] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/mvsd.lua",
     [13775113583] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/mvsd.lua",
+    [13772394625] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/bladeball.lua",
 }
 
 if gameLinks[game.PlaceId] ~= nil then
