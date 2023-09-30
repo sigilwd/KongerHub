@@ -1,9 +1,9 @@
-local HWIDTable = loadstring(game: HttpGet("https://pastebin.com/raw/BLkLc3nx"))()
+local HWIDTable = loadstring(game: HttpGet("https://pastebin.com/raw/UahnMs4s"))()
 local HWID = game: GetService ("RbxAnalyticsService"):GetClientId()
 print (HWIDTable)
 for i,v in pairs (HWIDTable) do
     if v == HWID then
-        game.Players.LocalPlayer:Kick("haha blacklisted by folix!!")
+        game.Players.LocalPlayer:Kick("ur ass just got blacklisted")
 
     end
 end
