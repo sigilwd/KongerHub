@@ -1,5 +1,5 @@
 --[[
-    KongerHub
+    KongerHub Loader
 ]]
 
 setfpscap(10000)
