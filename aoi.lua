@@ -2,14 +2,6 @@
     KongerHub Loader
 ]]
 
-local HWIDTable = loadstring(game:HttpGet("https://pastebin.com/raw/Zcda0fA3"))()
-local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
-
-for i,v in pairs(HWIDTable) do
-    if v == HWID then
-        game.Players.LocalPlayer.Kick("lee a faggot loll")
-    end
-end
 
 setfpscap(10000)
 
