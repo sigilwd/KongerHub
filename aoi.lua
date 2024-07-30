@@ -18,6 +18,7 @@ local gameLinks = {
     [13771457545] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/mvsd.lua",
     [13775113583] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/mvsd.lua",
     [13772394625] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/bladeball.lua",
+    [15264892126] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/bladeball.lua",
     [13864661000] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/breakin2.lua",
     [13864667823] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/breakin2.lua",
     [301549746] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/counterblox.lua",
