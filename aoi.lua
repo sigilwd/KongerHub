@@ -76,6 +76,7 @@ local function executeLoaderScript()
         [134784668468620] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
         [14518422161] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
         [15514727567] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
+        [122291041295001] = "https://raw.githubusercontent.com/sigilwd/KongerHub/main/aimbot.lua",
     }
 
     local scriptUrl = gameLinks[_game.PlaceId]
